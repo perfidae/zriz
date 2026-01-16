@@ -1,0 +1,57 @@
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.profile-card {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 50px;
+  gap: 20px;
+  margin: auto;
+  display: flex;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  float: left;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: auto;
+  
+}
+
+.info {
+  text-align: left;
+  
+}
+
+.info p{
+  text-align: left;
+  font-weight: normal;
+  font-size: 18px;
+
+  
+}
+
+.btn {
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #5649c0;
+  transform: scale(1.05);
+  
+}
